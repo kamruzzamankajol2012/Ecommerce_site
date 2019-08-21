@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Http\Controllers;
+
+class PageController extends Controller {
+	public function index() {
+		return view('front_end.pages.category');
+	}
+
+	public function showsingleproduct() {
+
+		return view('front_end.pages.single_product');
+	}
+
+	public function showproductcheckout() {
+
+		return view('front_end.pages.product_checkout');
+	}
+
+	public function showconfermationpage() {
+
+		return view('front_end.pages.confermation');
+	}
+
+	public function showcartpage() {
+
+		return view('front_end.pages.cart');
+	}
+	public function main() {
+		return view('front_end.home.index');
+	}
+	public function showblogpage() {
+
+		return view('front_end.pages.blog');
+
+	}
+
+	public function showsingleblogpage() {
+
+		return view('front_end.pages.single_blog');
+	}
+	public function showloginpage() {
+
+		return view('front_end.pages.login');
+	}
+
+	public function showregisterpage() {
+
+		return view('front_end.pages.register');
+	}
+
+	public function showtrackpage() {
+
+		return view('front_end.pages.track');
+	}
+
+	public function showcontactpage() {
+
+		return view('front_end.pages.contact');
+	}
+}
